@@ -40,3 +40,18 @@ class Solution:
             if second_num in num1:
                 index2 = num1.index(second_num)
                 return [idx1,index2]
+
+
+# More Optimised Solution using 1 pass
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        numMap = {}
+        n = len(nums)
+
+        for i in range(n):
+            complement = target - nums[i]
+            if complement in numMap:
+                return [numMap[complement], i]
+            numMap[nums[i]] = i
+
+        return []  # No solution found
