@@ -17,6 +17,7 @@ def isPalindrome():
         return True
     else:
         return False
-isPalindrome()
+
+print(isPalindrome())
 
         
