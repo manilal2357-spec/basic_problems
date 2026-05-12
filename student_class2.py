@@ -16,9 +16,9 @@ class Student:
                 f"CGPA: {self.cgpa}")
 
 
-student_1 = Student("manilal", 24, "A", 7.4)
-student_2 = Student("ram", 25, "B", 7.9)
-student_3 = Student("shyam", 26, "C", 8.1)
+student_1 = Student("jarvis", 24, "A", 7.4)
+student_2 = Student("jarvis2", 25, "B", 7.9)
+student_3 = Student("jarvis3", 26, "C", 8.1)
 
 for student in Student.all_students:
     print(student)

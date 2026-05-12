@@ -11,9 +11,9 @@ class Student:
         print("your roll number is :-",self.roll_number)
         print(f"you are in {self.set} set ")
         print(f"your cgpa is :- {self.cgpa}")
-student_1 = Student("manilal",24,"A",7.4)
-student_2 = Student("ram",25,"B",7.9)
-student_3 = Student("shyam",20,"B",7)
+student_1 = Student("jarvis01",24,"A",7.4)
+student_2 = Student("jarvis02",25,"B",7.9)
+student_3 = Student("jarvis03",20,"B",7)
  
 
 
